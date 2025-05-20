@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Pet } from "@/lib/utils";
+import { Pet } from "@/lib/types";
 
 const PetList = async () => {
   const response = await fetch(
